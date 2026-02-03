@@ -33,7 +33,7 @@ $ NAME [INPUT...]
 
 - Ensure the empty input case is handled correctly (see [Multi-phase execution](https://github.com/hashicorp/consul-template/blob/main/README.md#multi-phase-execution))
 
-- Data piped into the plugin is appended after any parameters given explicitly. For example, {{ "sample-data" | plugin "my-plugin" "some-parameter"}}` will call `my-plugin some-parameter sample-data`.
+- Data piped into the plugin is appended after any parameters given explicitly. For example, `{{ "sample-data" | plugin "my-plugin" "some-parameter"}}` will call `my-plugin some-parameter sample-data`.
 
 ## Examples
 
